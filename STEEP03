@@ -1,0 +1,10 @@
+public class STEEP03 {
+  public static void main ( String [] args ) {
+    Character moveRight = new Warrior ("Right") ;
+    Character moveLeft = new Warrior (" Left ") ;
+    Character moveForward = new Mage ("Forward ") ;
+    CharactermoveBack = new Mage ("Back ") ;
+    warrior . attack (" ") ;
+    mage . attack (" ") ;
+  }
+}
