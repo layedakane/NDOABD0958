@@ -1,0 +1,15 @@
+public class STEEP06 {
+  public static void main ( String [] args ) {
+    Character warrior = new Warrior ("Abdoulaye") ;
+    Character mage = new Mage (" Lucie ") ;
+    
+    warrior . tryToAttack (" Epi ") ;
+    mage . tryToAttack (" Sene ") ;
+    warrior . tryToAttack ("Fran ") ;
+    try {
+          mage . attack ("") ;
+    } catch ( WeaponException e ) {
+      System . out . println ( e . getMessage () ) ;
+    }
+  }
+}
