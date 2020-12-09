@@ -1,10 +1,14 @@
 public class STEEP03 {
-  public static void main ( String [] args ) {
-    Character moveRight = new Warrior ("Right") ;
-    Character moveLeft = new Warrior (" Left ") ;
-    Character moveForward = new Mage ("Forward ") ;
-    CharactermoveBack = new Mage ("Back ") ;
-    warrior . attack (" ") ;
-    mage . attack (" ") ;
+  public static void main (String [] args) {
+    Guerrier guerrier = nouveau guerrier ("Abdoulaye");
+    Mage mage = nouveau mage ("Epitech");
+    guerrier . déplacer vers la droite () ;
+    guerrier . se déplacer à gauche () ;
+    guerrier . moveBack ();
+    guerrier . Avance () ;
+     mage . déplacer vers la droite () ;
+     mage . se déplacer à gauche () ;
+     mage . moveBack ();
+     mage . Avance () ;
   }
 }
