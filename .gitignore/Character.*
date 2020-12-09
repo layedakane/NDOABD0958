@@ -1,3 +1,11 @@
+/ Create an abstract Character class that is composed of the following protected
+attributes: “name”, “life”, “agility”, “strength”, “wit”, and a constant “RpgClass” 
+string attribute, with the corresponding getters. For languages with 
+no constant data member within object, declare the “RpgClass” 
+attribute as the others, except
+that it should not have any setter.
+These attributes must have the following values by default: /
+
 public class Ndoabd0958 {
   public static void main ( String [] args ) {
     Character perso = new TestCharacter ("Andoulaye-Ndong") ;
