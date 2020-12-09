@@ -1,0 +1,12 @@
+public class Ndoabd0958 {
+public static void main ( String [] args ) {
+Character perso = new TestCharacter ("Andoulaye-Ndong") ;
+System . out . println ( perso . getName () ) ;
+System . out . println ( perso . getRpgClass () ) ;
+System . out . println ( perso . getLife () ) ;
+System . out . println ( perso . getAgility () ) ;
+System . out . println ( perso . getStrength () ) ;
+System . out . println ( perso . getWit () ) ;
+perso . attack ("Rrrrrrrrr .... ") ;
+}
+}
